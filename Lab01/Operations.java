@@ -9,7 +9,7 @@ public class Operations {
 
         double result = Double.parseDouble(strNum1) % Double.parseDouble(strNum2);
         
-        JOptionPane.showMessageDialog(null, result, "Result of the quotient operation", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null, result, "Result of the quotient operationg", JOptionPane.INFORMATION_MESSAGE);
         System.exit(0);
     }
 }
