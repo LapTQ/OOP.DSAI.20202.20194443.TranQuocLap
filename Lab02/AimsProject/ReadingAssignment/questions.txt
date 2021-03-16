@@ -1,0 +1,19 @@
+"If you create a constructor method to build a DVD by title then create a constructor method
+to build a DVD by category. Does JAVA allow you to do this?"
+
+Answer: No.
+If we implement like the following:
+
+public DigitalVideoDisc(String title) {
+    // code here
+}
+
+public DigitalVideoDisc(String category) {
+    // code here
+}
+
+Java won't recognize title and category as different just by their names.
+In fact, constructor overloading is allowed in case if the number of formal parameters are different or
+if the number of formal parameters is the same but with different datatypes.
+
+Meanwhile, title and category are of the same datatype.
