@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class DigitalVideoDisc {
     private String title;
     private String category;
@@ -46,6 +44,4 @@ public class DigitalVideoDisc {
         this(director, category, title, cost);
         this.length = length;
     }
-
-    // Reading assignment: mindmap reading, questions
 }
