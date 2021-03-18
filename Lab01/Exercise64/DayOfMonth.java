@@ -1,4 +1,4 @@
-package DayOfMonth;
+package Exercise64;
 
 import java.util.Scanner;
 

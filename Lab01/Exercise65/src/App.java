@@ -1,4 +1,4 @@
-package NumericArray.src;
+package Exercise65.src;
 
 public class App {
     public static void main(String[] args) throws Exception {

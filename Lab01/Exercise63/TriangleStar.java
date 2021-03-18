@@ -1,4 +1,4 @@
-package TriangleStar;
+package Exercise63;
 
 import java.util.Scanner;
 
