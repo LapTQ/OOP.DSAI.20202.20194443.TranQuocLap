@@ -17,7 +17,12 @@ public class Aims {
 
         System.out.println("Trying to remove " + dvd2.getTitle());
         anOrder.removeDigitalVideoDisc(dvd2);
-        System.out.print("Total cost is: ");
+        System.out.println("Total cost is: ");
+        System.out.println(anOrder.totalCost());
+
+        DigitalVideoDisc dvdList[] = {dvd1, dvd2, dvd3};
+        anOrder.addDigitalVideoDisc(dvdList);
+
         System.out.print(anOrder.totalCost());
     }
 }
