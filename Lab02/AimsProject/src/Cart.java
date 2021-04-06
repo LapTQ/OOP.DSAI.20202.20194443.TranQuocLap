@@ -4,7 +4,7 @@ public class Cart {
 
     public static final int MAX_NUMBERS_ORDERED = 20;
     private DigitalVideoDisc[] itemsOrdered = new DigitalVideoDisc[MAX_NUMBERS_ORDERED];
-    private int qtyOrdered = 0;
+    private int qtyOrdered;
 
     public void addDigitalVideoDisc(DigitalVideoDisc disc) {
         if (this.qtyOrdered == MAX_NUMBERS_ORDERED) {
@@ -19,26 +19,22 @@ public class Cart {
 
     public void addDigitalVideoDisc(DigitalVideoDisc [] dvdList) {
         if (dvdList.length + this.qtyOrdered > MAX_NUMBERS_ORDERED) {
-            System.out.print("Adding this list will cause overflow. Insert possible disc? [Y/n] ");
+            System.out.println("Adding this list will cause overflow. Continue? [Y/n] ");
             Scanner scan = new Scanner(System.in);
             String confirm = scan.next();
-            if (!(confirm.equals("y") || confirm.equals("Y"))) {
+            if (!(confirm == "y" || confirm == "Y")) {
                 return;
             }
         }
-
-        for(int i = 0; i < dvdList.length && this.qtyOrdered < MAX_NUMBERS_ORDERED; i++) {
+        for(int i = 0; i < dvdList.length && this.qtyOrdered == MAX_NUMBERS_ORDERED; i++) {
             this.addDigitalVideoDisc(dvdList[i]);
         }
     }
 
     public void addDigitalVideoDisc(DigitalVideoDisc dvd, DigitalVideoDisc... dvdList) {
-        DigitalVideoDisc newList[] = new DigitalVideoDisc[1 + dvdList.length];
-        newList[0] = dvd;
-        for(int i = 0; i < dvdList.length; i ++) {
-            newList[i + 1] = dvdList[i];
+        for(int i = 0; i < dvdList.length && this.qtyOrdered == MAX_NUMBERS_ORDERED; i++) {
+            this.addDigitalVideoDisc(dvdList[i]);
         }
-        this.addDigitalVideoDisc(newList);
     }
 
     public void addDigitalVideoDisc(DigitalVideoDisc dvd1, DigitalVideoDisc dvd2) {
@@ -64,7 +60,6 @@ public class Cart {
                 this.itemsOrdered[i] = this.itemsOrdered[this.qtyOrdered - 1];
                 this.itemsOrdered[this.qtyOrdered - 1] = temp;
                 this.qtyOrdered -= 1;
-                System.out.println(disc.getTitle() + " removed from cart!");
             }
         }
     }
