@@ -1,0 +1,1023 @@
+
+Page
+1
+of
+22
+9.
+String
+,
+StringBuilder
+and
+StringBuffer
+-
+In the
+OtherProjects
+project, create a new package
+hust.soict.globalict.garbage
+for ICT
+or
+hust.soict.
+dsai
+.garbage
+for
+DS
+-
+AI
+. We work with this package in this exercise.
+-
+Create a new class
+ConcatenationInLoops
+to test the
+processing time to construct
+String
+using
++
+operator,
+StringBuffer
+and
+StringBuilder
+.
+-
+Create a new class
+GarbageCreator
+. Create “garbage” as much as possible and observe when you run
+a program (it should let the program hangs or even stop working when too much “garbage”). Write another
+class
+NoGarbage
+to solve the problem.
+Some suggestions:
+-
+Read a text/binary file to a
+S
+tring
+without using
+StringBuffer
+to concatenate String (only use
++
+operator). Observe and capture your screen when you choose a very long file
+-
+Improve the code using
+StringBuffer.
+The following piece of code is a suggestion for your implementation
+For more information on
+String
+concatenation, please refe
+
+Page
+1
+of
+22
+9.
+String
+,
+StringBuilder
+and
+StringBuffer
+-
+In the
+OtherProjects
+project, create a new package
+hust.soict.globalict.garbage
+for ICT
+or
+hust.soict.
+dsai
+.garbage
+for
+DS
+-
+AI
+. We work with this package in this exercise.
+-
+Create a new class
+ConcatenationInLoops
+to test the
+processing time to construct
+String
+using
++
+operator,
+StringBuffer
+and
+StringBuilder
+.
+-
+Create a new class
+GarbageCreator
+. Create “garbage” as much as possible and observe when you run
+a program (it should let the program hangs or even stop working when too much “garbage”). Write another
+class
+NoGarbage
+to solve the problem.
+Some suggestions:
+-
+Read a text/binary file to a
+S
+tring
+without using
+StringBuffer
+to concatenate String (only use
++
+operator). Observe and capture your screen when you choose a very long file
+-
+Improve the code using
+StringBuffer.
+The following piece of code is a suggestion for your implementation
+For more information on
+String
+concatenation, please refe
+
+Page
+1
+of
+22
+9.
+String
+,
+StringBuilder
+and
+StringBuffer
+-
+In the
+OtherProjects
+project, create a new package
+hust.soict.globalict.garbage
+for ICT
+or
+hust.soict.
+dsai
+.garbage
+for
+DS
+-
+AI
+. We work with this package in this exercise.
+-
+Create a new class
+ConcatenationInLoops
+to test the
+processing time to construct
+String
+using
++
+operator,
+StringBuffer
+and
+StringBuilder
+.
+-
+Create a new class
+GarbageCreator
+. Create “garbage” as much as possible and observe when you run
+a program (it should let the program hangs or even stop working when too much “garbage”). Write another
+class
+NoGarbage
+to solve the problem.
+Some suggestions:
+-
+Read a text/binary file to a
+S
+tring
+without using
+StringBuffer
+to concatenate String (only use
++
+operator). Observe and capture your screen when you choose a very long file
+-
+Improve the code using
+StringBuffer.
+The following piece of code is a suggestion for your implementation
+For more information on
+String
+concatenation, please refe
+
+Page
+1
+of
+22
+9.
+String
+,
+StringBuilder
+and
+StringBuffer
+-
+In the
+OtherProjects
+project, create a new package
+hust.soict.globalict.garbage
+for ICT
+or
+hust.soict.
+dsai
+.garbage
+for
+DS
+-
+AI
+. We work with this package in this exercise.
+-
+Create a new class
+ConcatenationInLoops
+to test the
+processing time to construct
+String
+using
++
+operator,
+StringBuffer
+and
+StringBuilder
+.
+-
+Create a new class
+GarbageCreator
+. Create “garbage” as much as possible and observe when you run
+a program (it should let the program hangs or even stop working when too much “garbage”). Write another
+class
+NoGarbage
+to solve the problem.
+Some suggestions:
+-
+Read a text/binary file to a
+S
+tring
+without using
+StringBuffer
+to concatenate String (only use
++
+operator). Observe and capture your screen when you choose a very long file
+-
+Improve the code using
+StringBuffer.
+The following piece of code is a suggestion for your implementation
+For more information on
+String
+concatenation, please refe
+
+Page
+1
+of
+22
+9.
+String
+,
+StringBuilder
+and
+StringBuffer
+-
+In the
+OtherProjects
+project, create a new package
+hust.soict.globalict.garbage
+for ICT
+or
+hust.soict.
+dsai
+.garbage
+for
+DS
+-
+AI
+. We work with this package in this exercise.
+-
+Create a new class
+ConcatenationInLoops
+to test the
+processing time to construct
+String
+using
++
+operator,
+StringBuffer
+and
+StringBuilder
+.
+-
+Create a new class
+GarbageCreator
+. Create “garbage” as much as possible and observe when you run
+a program (it should let the program hangs or even stop working when too much “garbage”). Write another
+class
+NoGarbage
+to solve the problem.
+Some suggestions:
+-
+Read a text/binary file to a
+S
+tring
+without using
+StringBuffer
+to concatenate String (only use
++
+operator). Observe and capture your screen when you choose a very long file
+-
+Improve the code using
+StringBuffer.
+The following piece of code is a suggestion for your implementation
+For more information on
+String
+concatenation, please refe
+
+Page
+1
+of
+22
+9.
+String
+,
+StringBuilder
+and
+StringBuffer
+-
+In the
+OtherProjects
+project, create a new package
+hust.soict.globalict.garbage
+for ICT
+or
+hust.soict.
+dsai
+.garbage
+for
+DS
+-
+AI
+. We work with this package in this exercise.
+-
+Create a new class
+ConcatenationInLoops
+to test the
+processing time to construct
+String
+using
++
+operator,
+StringBuffer
+and
+StringBuilder
+.
+-
+Create a new class
+GarbageCreator
+. Create “garbage” as much as possible and observe when you run
+a program (it should let the program hangs or even stop working when too much “garbage”). Write another
+class
+NoGarbage
+to solve the problem.
+Some suggestions:
+-
+Read a text/binary file to a
+S
+tring
+without using
+StringBuffer
+to concatenate String (only use
++
+operator). Observe and capture your screen when you choose a very long file
+-
+Improve the code using
+StringBuffer.
+The following piece of code is a suggestion for your implementation
+For more information on
+String
+concatenation, please refe
+
+Page
+1
+of
+22
+9.
+String
+,
+StringBuilder
+and
+StringBuffer
+-
+In the
+OtherProjects
+project, create a new package
+hust.soict.globalict.garbage
+for ICT
+or
+hust.soict.
+dsai
+.garbage
+for
+DS
+-
+AI
+. We work with this package in this exercise.
+-
+Create a new class
+ConcatenationInLoops
+to test the
+processing time to construct
+String
+using
++
+operator,
+StringBuffer
+and
+StringBuilder
+.
+-
+Create a new class
+GarbageCreator
+. Create “garbage” as much as possible and observe when you run
+a program (it should let the program hangs or even stop working when too much “garbage”). Write another
+class
+NoGarbage
+to solve the problem.
+Some suggestions:
+-
+Read a text/binary file to a
+S
+tring
+without using
+StringBuffer
+to concatenate String (only use
++
+operator). Observe and capture your screen when you choose a very long file
+-
+Improve the code using
+StringBuffer.
+The following piece of code is a suggestion for your implementation
+For more information on
+String
+concatenation, please refe
+
+Page
+1
+of
+22
+9.
+String
+,
+StringBuilder
+and
+StringBuffer
+-
+In the
+OtherProjects
+project, create a new package
+hust.soict.globalict.garbage
+for ICT
+or
+hust.soict.
+dsai
+.garbage
+for
+DS
+-
+AI
+. We work with this package in this exercise.
+-
+Create a new class
+ConcatenationInLoops
+to test the
+processing time to construct
+String
+using
++
+operator,
+StringBuffer
+and
+StringBuilder
+.
+-
+Create a new class
+GarbageCreator
+. Create “garbage” as much as possible and observe when you run
+a program (it should let the program hangs or even stop working when too much “garbage”). Write another
+class
+NoGarbage
+to solve the problem.
+Some suggestions:
+-
+Read a text/binary file to a
+S
+tring
+without using
+StringBuffer
+to concatenate String (only use
++
+operator). Observe and capture your screen when you choose a very long file
+-
+Improve the code using
+StringBuffer.
+The following piece of code is a suggestion for your implementation
+For more information on
+String
+concatenation, please refe
+
+Page
+1
+of
+22
+9.
+String
+,
+StringBuilder
+and
+StringBuffer
+-
+In the
+OtherProjects
+project, create a new package
+hust.soict.globalict.garbage
+for ICT
+or
+hust.soict.
+dsai
+.garbage
+for
+DS
+-
+AI
+. We work with this package in this exercise.
+-
+Create a new class
+ConcatenationInLoops
+to test the
+processing time to construct
+String
+using
++
+operator,
+StringBuffer
+and
+StringBuilder
+.
+-
+Create a new class
+GarbageCreator
+. Create “garbage” as much as possible and observe when you run
+a program (it should let the program hangs or even stop working when too much “garbage”). Write another
+class
+NoGarbage
+to solve the problem.
+Some suggestions:
+-
+Read a text/binary file to a
+S
+tring
+without using
+StringBuffer
+to concatenate String (only use
++
+operator). Observe and capture your screen when you choose a very long file
+-
+Improve the code using
+StringBuffer.
+The following piece of code is a suggestion for your implementation
+For more information on
+String
+concatenation, please refe
+
+Page
+1
+of
+22
+9.
+String
+,
+StringBuilder
+and
+StringBuffer
+-
+In the
+OtherProjects
+project, create a new package
+hust.soict.globalict.garbage
+for ICT
+or
+hust.soict.
+dsai
+.garbage
+for
+DS
+-
+AI
+. We work with this package in this exercise.
+-
+Create a new class
+ConcatenationInLoops
+to test the
+processing time to construct
+String
+using
++
+operator,
+StringBuffer
+and
+StringBuilder
+.
+-
+Create a new class
+GarbageCreator
+. Create “garbage” as much as possible and observe when you run
+a program (it should let the program hangs or even stop working when too much “garbage”). Write another
+class
+NoGarbage
+to solve the problem.
+Some suggestions:
+-
+Read a text/binary file to a
+S
+tring
+without using
+StringBuffer
+to concatenate String (only use
++
+operator). Observe and capture your screen when you choose a very long file
+-
+Improve the code using
+StringBuffer.
+The following piece of code is a suggestion for your implementation
+For more information on
+String
+concatenation, please refe
+
+Page
+1
+of
+22
+9.
+String
+,
+StringBuilder
+and
+StringBuffer
+-
+In the
+OtherProjects
+project, create a new package
+hust.soict.globalict.garbage
+for ICT
+or
+hust.soict.
+dsai
+.garbage
+for
+DS
+-
+AI
+. We work with this package in this exercise.
+-
+Create a new class
+ConcatenationInLoops
+to test the
+processing time to construct
+String
+using
++
+operator,
+StringBuffer
+and
+StringBuilder
+.
+-
+Create a new class
+GarbageCreator
+. Create “garbage” as much as possible and observe when you run
+a program (it should let the program hangs or even stop working when too much “garbage”). Write another
+class
+NoGarbage
+to solve the problem.
+Some suggestions:
+-
+Read a text/binary file to a
+S
+tring
+without using
+StringBuffer
+to concatenate String (only use
++
+operator). Observe and capture your screen when you choose a very long file
+-
+Improve the code using
+StringBuffer.
+The following piece of code is a suggestion for your implementation
+For more information on
+String
+concatenation, please refe
+
+Page
+1
+of
+22
+9.
+String
+,
+StringBuilder
+and
+StringBuffer
+-
+In the
+OtherProjects
+project, create a new package
+hust.soict.globalict.garbage
+for ICT
+or
+hust.soict.
+dsai
+.garbage
+for
+DS
+-
+AI
+. We work with this package in this exercise.
+-
+Create a new class
+ConcatenationInLoops
+to test the
+processing time to construct
+String
+using
++
+operator,
+StringBuffer
+and
+StringBuilder
+.
+-
+Create a new class
+GarbageCreator
+. Create “garbage” as much as possible and observe when you run
+a program (it should let the program hangs or even stop working when too much “garbage”). Write another
+class
+NoGarbage
+to solve the problem.
+Some suggestions:
+-
+Read a text/binary file to a
+S
+tring
+without using
+StringBuffer
+to concatenate String (only use
++
+operator). Observe and capture your screen when you choose a very long file
+-
+Improve the code using
+StringBuffer.
+The following piece of code is a suggestion for your implementation
+For more information on
+String
+concatenation, please refe
+
+Page
+1
+of
+22
+9.
+String
+,
+StringBuilder
+and
+StringBuffer
+-
+In the
+OtherProjects
+project, create a new package
+hust.soict.globalict.garbage
+for ICT
+or
+hust.soict.
+dsai
+.garbage
+for
+DS
+-
+AI
+. We work with this package in this exercise.
+-
+Create a new class
+ConcatenationInLoops
+to test the
+processing time to construct
+String
+using
++
+operator,
+StringBuffer
+and
+StringBuilder
+.
+-
+Create a new class
+GarbageCreator
+. Create “garbage” as much as possible and observe when you run
+a program (it should let the program hangs or even stop working when too much “garbage”). Write another
+class
+NoGarbage
+to solve the problem.
+Some suggestions:
+-
+Read a text/binary file to a
+S
+tring
+without using
+StringBuffer
+to concatenate String (only use
++
+operator). Observe and capture your screen when you choose a very long file
+-
+Improve the code using
+StringBuffer.
+The following piece of code is a suggestion for your implementation
+For more information on
+String
+concatenation, please refe
+Page
+1
+of
+22
+9.
+String
+,
+StringBuilder
+and
+StringBuffer
+-
+In the
+OtherProjects
+project, create a new package
+hust.soict.globalict.garbage
+for ICT
+or
+hust.soict.
+dsai
+.garbage
+for
+DS
+-
+AI
+. We work with this package in this exercise.
+-
+Create a new class
+ConcatenationInLoops
+to test the
+processing time to construct
+String
+using
++
+operator,
+StringBuffer
+and
+StringBuilder
+.
+-
+Create a new class
+GarbageCreator
+. Create “garbage” as much as possible and observe when you run
+a program (it should let the program hangs or even stop working when too much “garbage”). Write another
+class
+NoGarbage
+to solve the problem.
+Some suggestions:
+-
+Read a text/binary file to a
+S
+tring
+without using
+StringBuffer
+to concatenate String (only use
++
+operator). Observe and capture your screen when you choose a very long file
+-
+Improve the code using
+StringBuffer.
+The following piece of code is a suggestion for your implementation
+For more information on
+String
+concatenation, please refe
+
+Page
+1
+of
+22
+9.
+String
+,
+StringBuilder
+and
+StringBuffer
+-
+In the
+OtherProjects
+project, create a new package
+hust.soict.globalict.garbage
+for ICT
+or
+hust.soict.
+dsai
+.garbage
+for
+DS
+-
+AI
+. We work with this package in this exercise.
+-
+Create a new class
+ConcatenationInLoops
+to test the
+processing time to construct
+String
+using
++
+operator,
+StringBuffer
+and
+StringBuilder
+.
+-
+Create a new class
+GarbageCreator
+. Create “garbage” as much as possible and observe when you run
+a program (it should let the program hangs or even stop working when too much “garbage”). Write another
+class
+NoGarbage
+to solve the problem.
+Some suggestions:
+-
+Read a text/binary file to a
+S
+tring
+without using
+StringBuffer
+to concatenate String (only use
++
+operator). Observe and capture your screen when you choose a very long file
+-
+Improve the code using
+StringBuffer.
+The following piece of code is a suggestion for your implementation
+For more information on
+String
+concatenation, please refe
+
+Page
+1
+of
+22
+9.
+String
+,
+StringBuilder
+and
+StringBuffer
+-
+In the
+OtherProjects
+project, create a new package
+hust.soict.globalict.garbage
+for ICT
+or
+hust.soict.
+dsai
+.garbage
+for
+DS
+-
+AI
+. We work with this package in this exercise.
+-
+Create a new class
+ConcatenationInLoops
+to test the
+processing time to construct
+String
+using
++
+operator,
+StringBuffer
+and
+StringBuilder
+.
+-
+Create a new class
+GarbageCreator
+. Create “garbage” as much as possible and observe when you run
+a program (it should let the program hangs or even stop working when too much “garbage”). Write another
+class
+NoGarbage
+to solve the problem.
+Some suggestions:
+-
+Read a text/binary file to a
+S
+tring
+without using
+StringBuffer
+to concatenate String (only use
++
+operator). Observe and capture your screen when you choose a very long file
+-
+Improve the code using
+StringBuffer.
+The following piece of code is a suggestion for your implementation
+For more information on
+String
+concatenation, please refe
