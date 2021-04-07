@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eafbd767-a38c-453f-a506-6bf9e3d8dd8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../AimsProject/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../AimsProject/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AimsProject/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AimsProject/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AimsProject/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AimsProject/AimsProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/Aims.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../AimsProject/out/production/AimsProject/Aims.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../AimsProject/out/production/AimsProject/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/CartTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../AimsProject/out/production/AimsProject/CartTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/DigitalVideoDisc.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../AimsProject/out/production/AimsProject/DigitalVideoDisc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/Store.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../AimsProject/out/production/AimsProject/Store.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/StoreTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../AimsProject/out/production/AimsProject/StoreTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/TestPassingParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../AimsProject/out/production/AimsProject/TestPassingParameter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aims.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AimsProject/src/hust/soict/dsai/aims/Aims/Aims.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AimsProject/src/hust/soict/dsai/aims/cart/Cart/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AimsProject/src/hust/soict/dsai/test/cart/CartTest/CartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AimsProject/src/hust/soict/dsai/aims/disc/DigitalVideoDisc/DigitalVideoDisc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AimsProject/src/hust/soict/dsai/aims/store/Store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AimsProject/src/hust/soict/dsai/test/store/StoreTest/StoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestPassingParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AimsProject/src/hust/soict/dsai/test/disc/TestPassingParameter/TestPassingParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Design/Class.asta" beforeDir="false" afterPath="$PROJECT_DIR$/../../AimsProject/Design/Class.asta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Design/Class.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../AimsProject/Design/Class.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReadingAssignment/mindmap.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../ReadingAssignment/mindmap.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReadingAssignment/questions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ReadingAssignment/questions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Requirement/UseCase.asta" beforeDir="false" afterPath="$PROJECT_DIR$/../../AimsProject/Requirement/UseCase.asta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Requirement/UseCase.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../AimsProject/Requirement/UseCase.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1pvRATyZSyY4nWycCEHb7D1E0Rq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="hust.soict.dsai.test.disc.TestPassingParameter" />
+      <recent name="hust.soict.dsai.test.store.StoreTest" />
+      <recent name="hust.soict.dsai.test.cart.CartTest" />
+      <recent name="hust.soict.dsai.aims.Aims" />
+      <recent name="hust.soict.dsai.aims.store.Store" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.StoreTest">
+    <configuration name="CartTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hust.soict.dsai.test.cart.CartTest.CartTest" />
+      <module name="AimsProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hust.soict.dsai.test.store.StoreTest.StoreTest" />
+      <module name="AimsProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPassingParameter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hust.soict.dsai.test.disc.TestPassingParameter.TestPassingParameter" />
+      <module name="AimsProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StoreTest" />
+        <item itemvalue="Application.CartTest" />
+        <item itemvalue="Application.TestPassingParameter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eafbd767-a38c-453f-a506-6bf9e3d8dd8b" name="Default Changelist" comment="" />
+      <created>1616061436127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616061436127</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
