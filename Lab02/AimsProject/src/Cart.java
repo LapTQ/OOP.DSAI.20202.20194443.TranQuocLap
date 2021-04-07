@@ -47,14 +47,10 @@ public class Cart {
             System.out.println("Cart is already empty!");
         }
         else {
-            int i = 0;
-            while (i < qtyOrdered && this.itemsOrdered[i] != disc) {
-                i += 1;
-            }
-            if (i == this.qtyOrdered) {
-                System.out.println(disc.getTitle() + " not in cart!");
-            }
-            else {
+            int i = this.search(disc.getId());
+            System.out.print("Remove: ");
+            this.printSearchResult(i);
+            if (i != -1) {
                 DigitalVideoDisc temp;
                 temp = this.itemsOrdered[i];
                 this.itemsOrdered[i] = this.itemsOrdered[this.qtyOrdered - 1];
@@ -70,5 +66,48 @@ public class Cart {
             total += this.itemsOrdered[i].getCost();
         }
         return total;
+    }
+
+    public void print() {
+        System.out.println("***********************CART***********************");
+        for (int i = 0; i < this.qtyOrdered; i ++) {
+            System.out.println(this.itemsOrdered[i].getDetail());
+        }
+        System.out.println("Total cost: " + this.totalCost());
+        System.out.println("***************************************************");
+    }
+
+    public int search(int id) {
+        int i = 0;
+        while (i < qtyOrdered && this.itemsOrdered[i].getId() != id) {
+            i += 1;
+        }
+        this.printSearchResult(i);
+        if (i == this.qtyOrdered) {
+            return -1;
+        }
+        return i;
+    }
+
+    public int search(String title) {
+        int i = 0;
+        while (i < qtyOrdered && this.itemsOrdered[i].getTitle() != title) {
+            i += 1;
+        }
+        this.printSearchResult(i);
+        if (i == this.qtyOrdered) {
+            return -1;
+        }
+        return i;
+    }
+
+    public void printSearchResult(int i) {
+        if (0 > i || i >= this.qtyOrdered) {
+            System.out.println("Item not found! Please check your id or regex again!");
+        }
+        else {
+            DigitalVideoDisc dvd = this.itemsOrdered[i];
+            System.out.println(dvd.getId() + ": " + dvd.getDetail() + " in cart!");
+        }
     }
 }
