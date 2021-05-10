@@ -1,6 +1,6 @@
 package hust.soict.dsai.test.disc.TestPassingParameter;
 
-import hust.soict.dsai.aims.disc.DigitalVideoDisc.DigitalVideoDisc;
+import hust.soict.dsai.aims.media.DigitalVideoDisc;
 
 public class TestPassingParameter {
 
@@ -29,7 +29,7 @@ public class TestPassingParameter {
         dvd1.setTitle(dvd2.getTitle());
         dvd1.setCategory(dvd2.getCategory());
         dvd1.setDirector(dvd2.getDirector());
-        dvd1.setLength(dvd2.getLength());
+        dvd1.setLength((int) dvd2.getLength());
         dvd1.setCost(dvd2.getCost());
     }
 

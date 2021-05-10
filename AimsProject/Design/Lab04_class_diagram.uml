@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>hust.soict.dsai.aims.media.Book</OriginalElement>
+  <nodes>
+    <node x="1400.665" y="634.5">hust.soict.dsai.aims.media.Track</node>
+    <node x="190.5" y="139.0">hust.soict.dsai.aims.media.Media</node>
+    <node x="171.125" y="0.0">hust.soict.dsai.aims.comparator.MediaComparatorByCostTitle</node>
+    <node x="896.0" y="622.5">hust.soict.dsai.aims.media.Disc</node>
+    <node x="0.0" y="634.0">hust.soict.dsai.aims.store.Store.Store</node>
+    <node x="531.0" y="526.0">hust.soict.dsai.aims.media.Book</node>
+    <node x="840.0" y="1071.0">hust.soict.dsai.aims.media.DigitalVideoDisc</node>
+    <node x="1243.0" y="975.0">hust.soict.dsai.aims.media.CompactDisc</node>
+    <node x="248.00000000000006" y="586.0">hust.soict.dsai.aims.cart.Cart.Cart</node>
+    <node x="497.12500000000006" y="0.0">hust.soict.dsai.aims.comparator.MediaComparatorByTitleCost</node>
+    <node x="1158.25" y="272.5">hust.soict.dsai.aims.playable.Playable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="hust.soict.dsai.aims.comparator.MediaComparatorByCostTitle" target="hust.soict.dsai.aims.media.Media" relationship="DEPENDENCY">
+      <point x="76.5" y="42.5" />
+      <point x="400.625" y="107.0" />
+      <point x="379.50000000000006" y="107.0" />
+      <point x="0.0" y="-163.5" />
+    </edge>
+    <edge source="hust.soict.dsai.aims.media.Book" target="hust.soict.dsai.aims.media.Media" relationship="GENERALIZATION">
+      <point x="0.0" y="-199.5" />
+      <point x="703.5" y="506.0" />
+      <point x="786.875" y="506.0" />
+      <point x="786.875" y="496.0" />
+      <point x="505.5" y="496.0" />
+      <point x="126.0" y="163.5" />
+    </edge>
+    <edge source="hust.soict.dsai.aims.store.Store.Store" target="hust.soict.dsai.aims.media.Media" relationship="TO_MANY">
+      <point x="0.0" y="-91.5" />
+      <point x="114.0" y="496.0" />
+      <point x="297.58500000000004" y="496.0" />
+      <point x="297.58500000000004" y="486.0" />
+      <point x="379.5" y="486.0" />
+      <point x="0.0" y="163.5" />
+    </edge>
+    <edge source="hust.soict.dsai.aims.media.DigitalVideoDisc" target="hust.soict.dsai.aims.media.Disc" relationship="GENERALIZATION">
+      <point x="0.0" y="-163.0" />
+      <point x="0.0" y="103.0" />
+    </edge>
+    <edge source="hust.soict.dsai.aims.store.Store.Store" target="hust.soict.dsai.aims.media.Media" relationship="TO_ONE">
+      <point x="76.0" y="-91.5" />
+      <point x="190.0" y="496.0" />
+      <point x="297.58500000000004" y="496.0" />
+      <point x="297.58500000000004" y="486.0" />
+      <point x="379.5" y="486.0" />
+      <point x="0.0" y="163.5" />
+    </edge>
+    <edge source="hust.soict.dsai.aims.store.Store.Store" target="hust.soict.dsai.aims.media.Media" relationship="DEPENDENCY">
+      <point x="-76.0" y="-91.5" />
+      <point x="38.0" y="506.0" />
+      <point x="106.16500000000008" y="506.0" />
+      <point x="106.16500000000008" y="486.0" />
+      <point x="253.5" y="486.0" />
+      <point x="-126.0" y="163.5" />
+    </edge>
+    <edge source="hust.soict.dsai.aims.cart.Cart.Cart" target="hust.soict.dsai.aims.media.Media" relationship="DEPENDENCY">
+      <point x="-87.66666666666674" y="-139.5" />
+      <point x="291.8333333333333" y="506.0" />
+      <point x="106.16500000000008" y="506.0" />
+      <point x="106.16500000000008" y="486.0" />
+      <point x="253.5" y="486.0" />
+      <point x="-126.0" y="163.5" />
+    </edge>
+    <edge source="hust.soict.dsai.aims.media.CompactDisc" target="hust.soict.dsai.aims.media.Disc" relationship="GENERALIZATION">
+      <point x="-174.75" y="-259.0" />
+      <point x="1301.25" y="950.0" />
+      <point x="1031.5" y="950.0" />
+      <point x="0.0" y="103.0" />
+    </edge>
+    <edge source="hust.soict.dsai.aims.media.Disc" target="hust.soict.dsai.aims.playable.Playable" relationship="REALIZATION">
+      <point x="67.75" y="-103.0" />
+      <point x="1099.25" y="506.0" />
+      <point x="1219.75" y="506.0" />
+      <point x="0.0" y="30.0" />
+    </edge>
+    <edge source="hust.soict.dsai.aims.cart.Cart.Cart" target="hust.soict.dsai.aims.media.Media" relationship="TO_MANY">
+      <point x="87.66666666666674" y="-139.5" />
+      <point x="467.1666666666668" y="496.0" />
+      <point x="297.58500000000004" y="496.0" />
+      <point x="297.58500000000004" y="486.0" />
+      <point x="379.5" y="486.0" />
+      <point x="0.0" y="163.5" />
+    </edge>
+    <edge source="hust.soict.dsai.aims.media.Track" target="hust.soict.dsai.aims.playable.Playable" relationship="REALIZATION">
+      <point x="0.0" y="-91.0" />
+      <point x="1505.165" y="506.0" />
+      <point x="1219.75" y="506.0" />
+      <point x="0.0" y="30.0" />
+    </edge>
+    <edge source="hust.soict.dsai.aims.media.Media" target="hust.soict.dsai.aims.comparator.MediaComparatorByCostTitle" relationship="CREATE">
+      <point x="-126.0" y="-163.5" />
+      <point x="253.5" y="117.0" />
+      <point x="247.625" y="117.0" />
+      <point x="-76.5" y="42.5" />
+    </edge>
+    <edge source="hust.soict.dsai.aims.cart.Cart.Cart" target="hust.soict.dsai.aims.media.Media" relationship="TO_ONE">
+      <point x="0.0" y="-139.5" />
+      <point x="379.50000000000006" y="496.0" />
+      <point x="297.58500000000004" y="496.0" />
+      <point x="297.58500000000004" y="486.0" />
+      <point x="379.5" y="486.0" />
+      <point x="0.0" y="163.5" />
+    </edge>
+    <edge source="hust.soict.dsai.aims.media.CompactDisc" target="hust.soict.dsai.aims.media.Track" relationship="DEPENDENCY">
+      <point x="174.75" y="-259.0" />
+      <point x="1650.75" y="950.0" />
+      <point x="1557.415" y="950.0" />
+      <point x="52.25" y="91.0" />
+    </edge>
+    <edge source="hust.soict.dsai.aims.media.Media" target="hust.soict.dsai.aims.comparator.MediaComparatorByTitleCost" relationship="CREATE">
+      <point x="126.0" y="-163.5" />
+      <point x="505.5" y="117.0" />
+      <point x="726.625" y="117.0" />
+      <point x="76.5" y="42.5" />
+    </edge>
+    <edge source="hust.soict.dsai.aims.comparator.MediaComparatorByTitleCost" target="hust.soict.dsai.aims.media.Media" relationship="DEPENDENCY">
+      <point x="-76.5" y="42.5" />
+      <point x="573.625" y="107.0" />
+      <point x="379.50000000000006" y="107.0" />
+      <point x="0.0" y="-163.5" />
+    </edge>
+    <edge source="hust.soict.dsai.aims.media.Disc" target="hust.soict.dsai.aims.media.Media" relationship="GENERALIZATION">
+      <point x="-67.75" y="-103.0" />
+      <point x="963.75" y="506.0" />
+      <point x="786.875" y="506.0" />
+      <point x="786.875" y="496.0" />
+      <point x="505.5" y="496.0" />
+      <point x="126.0" y="163.5" />
+    </edge>
+    <edge source="hust.soict.dsai.aims.media.CompactDisc" target="hust.soict.dsai.aims.media.Track" relationship="TO_ONE">
+      <point x="58.25" y="-259.0" />
+      <point x="1534.25" y="950.0" />
+      <point x="1452.915" y="950.0" />
+      <point x="-52.25" y="91.0" />
+    </edge>
+    <edge source="hust.soict.dsai.aims.media.CompactDisc" target="hust.soict.dsai.aims.media.Track" relationship="TO_MANY">
+      <point x="-58.25" y="-259.0" />
+      <point x="1417.75" y="950.0" />
+      <point x="1452.915" y="950.0" />
+      <point x="-52.25" y="91.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5499999999999998" showDependencies="true" x="720.7647058823532" y="502.0588235294118" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
