@@ -1,35 +1,40 @@
 package hust.soict.dsai.aims.cart.Cart;
 
+import hust.soict.dsai.aims.exception.DuplicateException;
 import hust.soict.dsai.aims.media.Media;
+import javafx.beans.InvalidationListener;
+import javafx.collections.FXCollections;
+import javafx.collections.ListChangeListener;
+import javafx.collections.ObservableList;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Cart {
 
     public static final int MAX_NUMBERS_ORDERED = 20;
-    private List<Media> itemsOrdered = new ArrayList<Media>();
+    private ObservableList<Media> itemsOrdered = FXCollections.observableArrayList();
 
-    public List<Media> getItemsOrdered() {
+    public ObservableList<Media> getItemsOrdered() {
         return itemsOrdered;
     }
 
     public int findMedia(Media media) {
 
         int i = 0;
-        while (i < this.itemsOrdered.size() && this.itemsOrdered.get(i) != media) {
+        while (i < this.itemsOrdered.size() &&
+                !this.itemsOrdered.get(i).getTitle().equals(media.getTitle())) {
             i += 1;
         }
 
         return i;
     }
 
-    public void addMedia(Media media) {
+    public void addMedia(Media media) throws DuplicateException {
         int i = this.findMedia(media);
 
         if (i < this.itemsOrdered.size()) {
             System.out.println(media.getTitle() + " is already included.");
+            throw new DuplicateException("ERROR: Media already included!");
         } else if (this.itemsOrdered.size() == MAX_NUMBERS_ORDERED) {
             System.out.println(media.getTitle() + " added to cart unsuccessfully (Cart is already full)!");
         } else {
@@ -48,14 +53,26 @@ public class Cart {
             }
         }
         for (int i = 0; i < mediaList.length && this.itemsOrdered.size() == MAX_NUMBERS_ORDERED; i++) {
-            this.addMedia(mediaList[i]);
+            try {
+                this.addMedia(mediaList[i]);
+            } catch (DuplicateException e) {
+                e.printStackTrace();
+            }
         }
     }
 
     public void addMedia(Media media, Media... mediaList) {
-        this.addMedia(media);
+        try {
+            this.addMedia(media);
+        } catch (DuplicateException e) {
+            e.printStackTrace();
+        }
         for (int i = 0; i < mediaList.length && this.itemsOrdered.size() == MAX_NUMBERS_ORDERED; i++) {
-            this.addMedia(mediaList[i]);
+            try {
+                this.addMedia(mediaList[i]);
+            } catch (DuplicateException e) {
+                e.printStackTrace();
+            }
         }
     }
 

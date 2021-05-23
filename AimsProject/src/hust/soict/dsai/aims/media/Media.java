@@ -54,23 +54,24 @@ public abstract class Media {
 
     public Media(String title) {
         this.title = title;
+        id = nMedia;
+        nMedia += 1;
     }
 
     public Media(String title, String category) {
-        this.title = title;
+        this(title);
         this.category = category;
     }
 
     public Media(String title, String category, float cost) {
-        this.title = title;
-        this.category = category;
+        this(title, category);
         this.cost = cost;
     }
 
     public boolean equals(Object o) {
         Media other = (Media) o;
 
-        return this.title == other.getTitle();
+        return this.title.equals(other.getTitle());
     }
 
     public static final Comparator<Media> COMPARE_BY_TITLE_COST = new MediaComparatorByTitleCost();

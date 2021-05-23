@@ -1,8 +1,12 @@
 package hust.soict.dsai.aims.Aims;
 
 import hust.soict.dsai.aims.cart.Cart.Cart;
+import hust.soict.dsai.aims.exception.DuplicateException;
+import hust.soict.dsai.aims.exception.PlayerException;
 import hust.soict.dsai.aims.media.*;
 import hust.soict.dsai.aims.store.Store.Store;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 
 import java.util.*;
 
@@ -188,7 +192,7 @@ public class Aims {
         System.out.println("Input CD's features: ");
         String artist, director, title, category, trackTitle;
         float cost;
-        List<Track> tracks = new ArrayList<Track>();
+        ObservableList<Track> tracks = FXCollections.observableArrayList();
         int trackLength;
 
         scan = new Scanner(System.in);
@@ -221,7 +225,11 @@ public class Aims {
         CompactDisc CD = new CompactDisc(title, category, cost, director, artist, tracks);
         System.out.print("Add this CD? Are you sure? [Y/n]: ");
         if (scan.nextLine().toLowerCase().strip().equals("y")) {
-            store.addMedia(CD);
+            try {
+                store.addMedia(CD);
+            } catch (DuplicateException e) {
+                e.printStackTrace();
+            }
         }
     }
 
@@ -260,7 +268,11 @@ public class Aims {
         System.out.print("Add this DVD? Are you sure? [Y/n]: ");
         scan = new Scanner(System.in);
         if (scan.nextLine().toLowerCase().strip().equals("y")) {
-            store.addMedia(dvd);
+            try {
+                store.addMedia(dvd);
+            } catch (DuplicateException e) {
+                e.printStackTrace();
+            }
         }
     }
 
@@ -284,7 +296,11 @@ public class Aims {
 
         System.out.print("Add this book? Are you sure? [Y/n]: ");
         if (scan.nextLine().toLowerCase().strip().equals("y")) {
-            store.addMedia(book);
+            try {
+                store.addMedia(book);
+            } catch (DuplicateException e) {
+                e.printStackTrace();
+            }
         }
     }
 
@@ -428,7 +444,11 @@ public class Aims {
             } else {
                 choice -= 1; // index in array
                 Media item = store.getItemsInStore().get(choice);
-                cart.addMedia(item);
+                try {
+                    cart.addMedia(item);
+                } catch (DuplicateException e) {
+                    e.printStackTrace();
+                }
             }
         }
     }
@@ -464,7 +484,11 @@ public class Aims {
                 // Option to add current item to cart
                 System.out.print("Do you want to add it to cart? [Y/n] ");
                 if (scan.next().toLowerCase().strip().equals("y")) {
-                    cart.addMedia(item);
+                    try {
+                        cart.addMedia(item);
+                    } catch (DuplicateException e) {
+                        e.printStackTrace();
+                    }
                 }
             }
             break;
@@ -474,8 +498,13 @@ public class Aims {
     private static void Play(Media item) {
         if (item instanceof Book) {
             System.out.println("Book can't be played.");
-        } else
-            ((Disc) item).play();
+        } else {
+            try {
+                ((Disc) item).play();
+            } catch (PlayerException exp) {
+                System.out.println(exp.getMessage());
+            }
+        }
     }
 
     private static int searchStoreByTitle(String title) {

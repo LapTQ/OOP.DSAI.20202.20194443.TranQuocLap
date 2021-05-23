@@ -1,28 +1,40 @@
 package hust.soict.dsai.aims.media;
 
+import hust.soict.dsai.aims.exception.DuplicateException;
+import hust.soict.dsai.aims.exception.PlayerException;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class CompactDisc extends Disc {
 
     private String artist;
-    private List<Track> tracks = new ArrayList<Track>();
+    public ObservableList<Track> tracks = FXCollections.observableArrayList();
 
     public String getArtist() {
         return artist;
     }
 
-    public List<Track> getTracks() {
+    public ObservableList<Track> getTracks() {
         return tracks;
     }
 
-    public void setTracks(List<Track> tracks) {
-        this.tracks = tracks;
+    public CompactDisc() {
+        super(null, null, 0);
+    }
+    public CompactDisc(String title) {
+        super(title);
     }
 
     public CompactDisc(String title, String artist) {
         super(title);
         this.artist = artist;
+    }
+
+    public CompactDisc(String title, String category, float cost) {
+        super(title, category, cost);
     }
 
     public CompactDisc(String title, String director, String artist) {
@@ -40,67 +52,69 @@ public class CompactDisc extends Disc {
         this.artist = artist;
     }
 
+    public CompactDisc(String title, String artist, ObservableList<Track> tracks) {
+        super(title);
+        this.artist = artist;
+        this.tracks = tracks;
+    }
+
+    public CompactDisc(String title, String category, float cost, ObservableList<Track> tracks) {
+        super(title, category, cost);
+        this.tracks = tracks;
+    }
+
+    public CompactDisc(String title, String director, String artist, ObservableList<Track> tracks) {
+        super(title, director);
+        this.artist = artist;
+        this.tracks = tracks;
+    }
+
+    public CompactDisc(String title, ObservableList<Track> tracks) {
+        super(title);
+        this.tracks = tracks;
+    }
+
+    public CompactDisc(String title, String category, float cost, String artist, ObservableList<Track> tracks) {
+        super(title, category, cost);
+        this.artist = artist;
+        this.tracks = tracks;
+    }
+
+    public CompactDisc(String title, String category, String director, String artist, ObservableList<Track> tracks) {
+        super(title, category, director);
+        this.artist = artist;
+        this.tracks = tracks;
+    }
+
+    public CompactDisc(String title, String category, float cost, String director, String artist, ObservableList<Track> tracks) {
+        super(title, category, cost, director);
+        this.artist = artist;
+        this.tracks = tracks;
+    }
+
     public CompactDisc(String title, String category, float cost, String director, String artist) {
         super(title, category, cost, director);
         this.artist = artist;
     }
 
-    public CompactDisc(String title, List<Track> tracks) {
-        super(title);
-        this.tracks = tracks;
-    }
-
-    public CompactDisc(String title, String director, List<Track> tracks) {
-        super(title, director);
-        this.tracks = tracks;
-    }
-
-    public CompactDisc(String title, String category, float cost, List<Track> tracks) {
-        super(title, category, cost);
-        this.tracks = tracks;
-    }
-
-    public CompactDisc(String title, String category, String director, List<Track> tracks) {
-        super(title, category, director);
-        this.tracks = tracks;
-    }
-
-    public CompactDisc(String title, String category, float cost, String director, List<Track> tracks) {
-        super(title, category, cost, director);
-        this.tracks = tracks;
-    }
-
-    public CompactDisc(String title, String category, String director, String artist, List<Track> tracks) {
-        super(title, category, director);
-        this.artist = artist;
-        this.tracks = tracks;
-    }
-
-    public CompactDisc(String title, String category, float cost, String director, String artist, List<Track> tracks) {
-        super(title, category, cost, director);
-        this.artist = artist;
-        this.tracks = tracks;
-    }
-
     public int findTrack(Track track) {
-
         int i = 0;
         while (i < this.tracks.size() && !this.tracks.get(i).getTitle().equals(track.getTitle())) {
             i += 1;
         }
-
         return i;
     }
 
-    public void addTrack(Track track) {
+    public void addTrack(Track track) throws DuplicateException {
 
         int i = this.findTrack(track);
 
         if (i < this.tracks.size()) {
+            System.out.println(track.getTitle() + " is already included.");
+            throw new DuplicateException("ERROR: Duplicated Media!");
+        } else {
             this.tracks.add(track);
             System.out.println(track.getTitle() + " is added successfully.");
-        } else {
-            System.out.println(track.getTitle() + " is already included.");
         }
     }
 
@@ -127,23 +141,28 @@ public class CompactDisc extends Disc {
         return total_length;
     }
 
-    public void play() {
-        float min_length = 1e9F;
+    public String play() throws PlayerException {
 
-        for (int i = 0; i < this.tracks.size(); i++) {
-            if (min_length > this.tracks.get(i).getLength()) {
-                min_length = this.tracks.get(i).getLength();
-            }
-        }
+        String msg = "";
 
-        if (min_length > 0) {
-            System.out.println("Playing CompactDisc: " + this.getTitle() + "\t" + "Category: " + this.getCategory() + "\t" + "Artist: " + this.artist);
-            for (int i = 0; i < this.tracks.size(); i++) {
-                this.tracks.get(i).play();
+        if (this.getLength() > 0) {
+            java.util.Iterator iter = tracks.iterator();
+            Track nextTrack;
+            while (iter.hasNext()) {
+                nextTrack = (Track) iter.next();
+                try {
+                    msg += nextTrack.play();
+                } catch (PlayerException e) {
+                    throw e;
+                }
             }
         } else {
-            System.out.println("Can't play.");
+            throw new PlayerException("ERROR: CD length is non-positive!");
         }
+
+        System.out.println(msg);
+
+        return msg;
     }
 
     public String toString() {
